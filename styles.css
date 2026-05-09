@@ -19,16 +19,50 @@ body {
     margin-right: 15px;
 }
  
-/* Search bar */
+/* Search bar container */
+
+.searchContainer{
+  display:flex;
+  align-items:center;
+  background:White;
+  border-radius:20px;
+  padding:0 12px;
+  flex:1;
+  
+}
+
+/*searchIcon inside the searchBar*/
+.searchIcon{
+  width:20px;
+  height:20px;
+  filter:brightness(0);
+  margin-right:8px;
+ }
+
 .searchbar {
     flex:1;
-	height:15px;
-    padding: 12px;
-    border-radius: 20px;
+	height:30px;
+	outline:none;
     border: none;
     font-size: 16px;
-
 }
+
+
+/*image dp icon*/
+.userDp{
+  margin-left:13px;
+  margin-right:4px;
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  object-fit: cover;
+}
+
+
+
+
+
+
 
 /* Main section */
 .section1 {
@@ -62,4 +96,7 @@ body {
     color: white;
     font-size: 16px;
 }
+
+
+
 
